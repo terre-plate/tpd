@@ -21,7 +21,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world!').end();
+  res.status(200).send('<link rel="shortcut icon" type="image/png" href="http://i.omgomg.eu/fes_logo.ico"/>Soyez les bienvenus sur Terre Tiret Plate Dotcom (TPD) bande de fils de putes de touristes intergalactiques !\n<br> JE VOUS DÉTESTE !!!').end();
 });
 
 // Start the server
