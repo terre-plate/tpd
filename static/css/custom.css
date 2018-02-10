@@ -15,7 +15,7 @@
 }
 */
 .navbar-default {
-  background-color: #0f1514;
+  background-color: rgba(128,0,128,0.6);
   border-color: black;
   font-size: 150%;
   max-height: 75px;
@@ -27,6 +27,7 @@
 
 .navbar-default .navbar-brand {
   color: #ffffff;
+  font-size: 150%;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -123,8 +124,8 @@
     text-align: center;
     vertical-align: middle;
     font-size: 150%;
-    background-color: #0f1514;
     position: absolute;
+    background-color: rgba(128,0,128,0.6);
     left: 0;
     right: 0;
     width: 100%;
@@ -144,13 +145,7 @@
 {
     color: white;
     vertical-align: middle;
-}
 
-.navbar-footer{
-  font-size: 22px;
-  /*height:60px;*/
-  background-color: #eeeeee;
-  bottom:0;
 }
 
 .dropdown-menu {
@@ -271,6 +266,14 @@ section-header-lab h1{
   cursor: pointer;
 }
 
+.whiten{
+  color: #FFFFFF;
+  font-size: x-large;
+}
+.coverali{
+  opacity: 1;
+  background-color:000000;
+}
 table tr td {
     padding-left: 0;
     padding-right: 0;
@@ -295,7 +298,9 @@ table tr td {
   border-width: 2px;
   margin-bottom: 20px;
 }
-
+.bglisible{
+  background-color: rgba(0,0,0,0.8);
+}
 /* skin.css Style*/
 .upload-drop-zone {
   color: #ccc;
