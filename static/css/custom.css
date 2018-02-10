@@ -1,0 +1,310 @@
+.form-control::-webkit-input-placeholder { color: black; }
+.form-control:-moz-placeholder { color: black; }
+.form-control::-moz-placeholder { color: black; }
+.form-control:-ms-input-placeholder { color: black; }
+.alert-success {
+    color: white;
+    background-color: #009999;
+    border-color: #white;
+}
+/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color:#ff0066;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: black;
+}
+*/
+.navbar-default {
+  background-color: #333333;
+  border-color: black;
+  font-size: 150%;
+  max-height: 75px;
+  line-height: 20px;
+  margin-bottom: 0;
+  border: 0;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #333333;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #333333;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > .active > li,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > li:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > li:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > li,
+.navbar-default .navbar-nav > .active > li:hover,
+.navbar-default .navbar-nav > .active > li:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > li,
+.navbar-default .navbar-nav > .open > li:hover,
+.navbar-default .navbar-nav > .open > li:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+
+.footer
+{
+    height: 67px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 150%;
+    background-color: #0f1514;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.slider {
+    width: 100% !important;
+}
+
+#slider1 .slider-selection {
+  background: #5bc0de;
+}
+
+.footer a
+{
+    color: white;
+    vertical-align: middle;
+}
+
+.navbar-footer{
+  font-size: 22px;
+  /*height:60px;*/
+  background-color: #eeeeee;
+  bottom:0;
+}
+
+.dropdown-menu {
+  font-size: 15px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #FFFFFF;
+  color:black;
+  font-size: 150%;
+  padding-bottom: 0;
+  margin: 0;
+  margin-bottom: 55px;
+}
+
+
+header-homepage {
+  background: #005151;
+  color: white;
+  display: block;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+header-homepage h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+toc-homepage {
+  background: white;
+  color: black;
+  display: block;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.card-block {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    border: 1px solid #ededed;
+    border-bottom: 3px solid #ededed;
+    margin-bottom: 30px;
+}
+.card-block1 {
+    background: #005151;
+}
+
+.card-block2 {
+    background: #f20e68;
+}
+
+.card-block h3 a {
+    color: white;
+}
+
+section-header {
+  background: #005151;
+  color: white;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section-gray {
+  background: #349797;
+  color: white;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+section-header-lab{
+  background: #f20e68;
+  color: white;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section-header h1{
+  font-style: bold;
+  font-size: 55px;
+  font-variant: small-caps;
+}
+
+section-header-lab h1{
+  font-style: bold;
+  font-size: 55px;
+  font-variant: small-caps;
+}
+
+.noresize {
+  resize: none;
+  overflow: scroll;
+}
+.well{
+  color: white;
+  background-color: #009999;
+  border-color: black;
+  font-size: 250%;
+}
+.pointed {
+  cursor: pointer;
+}
+
+table tr td {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-nav > li > a {
+   line-height: 0px;
+}
+.glyphicon {
+    min-height:  0px;
+    line-height: 0px;
+}
+
+.blockchain {
+    background-color: #009999 !important;
+}
+.small-caps {
+  font-variant: small-caps;
+}
+/* layout.css Style */
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}

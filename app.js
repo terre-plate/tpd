@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
     res.render('homepage')
 });
 
+app.get('*',function (req, res) {
+        res.redirect('/');
+    });
+
 // Start the server
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
