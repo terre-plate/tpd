@@ -28,10 +28,12 @@
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
-
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu {
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu,.navbar-default .navbar-nav > li > a:active {
   color: #FFFF00;
   background-color: rgba(128,0,128,0.6);
 }
@@ -40,28 +42,29 @@
 }
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: #000000;
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus,.navbar-default .navbar-nav > li > .dropdown-menu > li > a:active {
+  color: #FFFF00;
+} {
+  color: #FFFF00;
 }
 
 
 .navbar-default .navbar-nav .open .dropdown-menu > .active > li,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > li:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > .active > li:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color: #FFFF00;
 }
 .navbar-default .navbar-nav > .active > li,
 .navbar-default .navbar-nav > .active > li:hover,
 .navbar-default .navbar-nav > .active > li:focus {
-  color: #000000;
+  color: #FFFF00;
   background-color: #ffffff;
 }
+
 .navbar-default .navbar-nav > .open > li,
 .navbar-default .navbar-nav > .open > li:hover,
 .navbar-default .navbar-nav > .open > li:focus {
-  color: #000000;
-  background-color: #ffffff;
+  color: #FFFF00;
 }
 .navbar-default .navbar-toggle {
   border-color: #ffffff;
@@ -81,7 +84,7 @@
   color: #ffffff;
 }
 .navbar-default .navbar-link:hover {
-  color: #000000;
+  color: #ffff00;
   background-color: #ffffff;
 }
 
@@ -91,19 +94,17 @@
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #000000;
+    color: #ffff00;
     background-color: #ffffff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #000000;
+    color: #ffff00;
     background-color: #ffffff;
   }
 }
-
-.footer
-{
+.footer{
     height: 67px;
     text-align: center;
     vertical-align: middle;
